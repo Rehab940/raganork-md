@@ -10,13 +10,13 @@ function convertToBool(text, fault = 'true',fault2='on') {
 }
 const settingsMenu = [
     {title: "PM antispam block", env_var: "PM_ANTISPAM"},
-    {title: "Auto read all messages", env_var: "READ_MESSAGES"},
+    {title: "Auto read all messages", env_var: "READ_MESSAGES"},true
     {title: "Auto read command messages", env_var: "READ_COMMAND"},
-    {title: "Auto read status updates", env_var: "AUTO_READ_STATUS"},
+    {title: "Auto read status updates", env_var: "AUTO_READ_STATUS"},true
     {title: "Admin sudo acces mode (group commands only)", env_var: "ADMIN_ACCESS"},
     {title: "With & without handler mode", env_var: "MULTI_HANDLERS"},
     {title: "Auto reject calls", env_var: "REJECT_CALLS"},
-    {title: "Always online", env_var: "ALWAYS_ONLINE"},
+    {title: "Always online", env_var: "ALWAYS_ONLINE"},true
     {title: "PM Auto blocker", env_var: "PMB_VAR"},
     {title: "Disable bot in PM", env_var: "DIS_PM"}
   ]
